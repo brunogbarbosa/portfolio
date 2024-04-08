@@ -1,0 +1,286 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    background-color: #162037;
+    color: rgb(231, 225, 225);
+    font-family: 'poppinslight', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 50px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.icon-eng {
+    margin-left: 25px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.header-modal {
+    display: flex;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 5px;
+    padding-top: 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 8px 12px;
+    background-color: rgba(68, 124, 187, 0);
+    border: 1px solid white;
+    color: #ffffff;
+    border-radius: 10px;
+    font-family: 'poppinslight';
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.botao-fechar-modal {
+    border: none;
+    background-color: transparent;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.header-modal h3 {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    padding-bottom: 10px;
+    width: 30%;
+    font-family: 'poppinslight';
+}
+
+.modal::backdrop {
+    background-color: rgb(0, 0, 0, 0.7);
+}
+
+.modal[open] {
+    background-image: linear-gradient(to bottom, #05112c, #162037, #050a18);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(92, 92, 92);
+    border-radius: 10px;
+    padding: 10px 28px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 80vh;
+}
+
+.modal p {
+    margin: 0;
+    font-size: 15px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    width: 100%;
+    height: 100vh;
+    transition: background .5s;
+}
+
+/*MODO DARK OR LIGHT*/
+
+body.active {
+    background: rgb(1, 155, 175);
+    color: white;
+}
+
+.modal.active {
+    background: rgb(1, 155, 175);
+    color: white;
+    border-color: #fff;
+}
+
+
+.botao.active::before {
+    left: 23px;
+}
+
+
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    width: 40px;
+    height: 18px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+    
+}
+
+
+.box-one {
+    display: flex;
+    padding-top: 15px;
+    align-items: center;
+}
+
+.botaoidioma {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    width: 90px;
+    height: 20px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+    margin: 0px 15px;
+}
+
+
+.botao::before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    border-radius: 50%;
+    top: 50%;
+    left: 2px;
+    transform: translateY(-50%);
+    transition: left .5s;
+
+}
+
+a {
+    color: rgb(231, 225, 225);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(68, 123, 187);
+}
+
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.container-principal {
+    margin: auto;
+    align-items: center;
+    width: 50%;
+}
+
+.container-principal h1 {
+    font-size: 40px;
+    line-height: 1.5px;
+}
+
+.container-principal span {
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.logos img {
+    padding: 15px 0px;
+    width: 55px;
+    height: 40px;
+}
+
+.container-principal button {
+    background-color: rgb(231, 225, 225);
+    padding: 15px 20px;
+    border-radius: 40px;
+    font-size: 16px;
+    align-self: center;
+    border: none;
+    font-family: 'poppinsmedium';
+    background-color: rgb(68, 123, 187);
+    color: rgb(27, 27, 73);
+    margin-top: 15px;
+    box-shadow: 0px 0px 16px rgb(68, 123, 187);
+    cursor: pointer;
+}
+
+.txt-animado span {
+    position: relative;
+    font-family: 'poppinsregular';
+}
+
+
+.txt-animado span::before {
+    content: "";
+    color: rgb(68, 123, 187);
+    animation: palavras 5s infinite; 
+}
+
+.txt-animado span::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: calc(100% + 10px);
+    border-left: 2px solid rgb(68, 123, 187);
+    right: -10px;
+    animation: cursor .8s infinite, digitar 35s steps(30) infinite;
+    background-color: #162037;
+}
+
+
+.image img {
+    width: 350px;
+    margin: 50px;
+    margin-right: 80px;
+}
+
+@keyframes digitar {
+    10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95% {
+        width: 0;
+
+    }
+    5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
+        width: calc(100% + 10px);
+    }
+}
+
+@keyframes cursor {
+    0% {
+        border-left: 2px solid #162037;
+    }
+
+}
+
+@keyframes palavras { 
+    0%, 100% {
+        content: "Desenvolvedor Front-end";
+        
+    }
+}
