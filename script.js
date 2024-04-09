@@ -26,15 +26,13 @@ const botao = document.querySelector('.botao');
 const body = document.body;
 const elemento = document.querySelector('.txt-animado'); 
 const icons = document.querySelector('.logos');
-const baixar = document.querySelector('#botaodownload');
-const downl = document.querySelector('.botaobaixar');
+const baixarbotao = document.querySelector('.botaodownload');
 botao.onclick = function() {
     this.classList.toggle('active');
     modal.classList.toggle('active');
     body.classList.toggle('active');
     elemento.classList.toggle('active');
     icons.classList.toggle('active');
-    downl.classList.toggle('active');
-    baixar.classList.toggle('active');
+    baixarbotao.classList.toggle('active');
 }
 
