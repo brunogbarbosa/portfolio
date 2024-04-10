@@ -114,11 +114,51 @@ body.active {
     color: white;
 }
 
+
+.txt-animado.active span {
+    position: relative;
+    font-family: 'poppinsregular';
+}
+
+
+.txt-animado.active span::before {
+    content: "";
+    color: rgb(255, 255, 255);
+    animation: palavras 5s infinite; 
+}
+
+.txt-animado.active span::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: calc(100% + 10px);
+    border-left: 2px solid rgb(255, 255, 255);
+    right: -10px;
+    animation: cursor .8s infinite, digitar 35s steps(30) infinite;
+    background-color: rgb(1, 155, 175);
+}
+
+
+.botaodownload.active button {
+        padding: 15px 20px;
+        border-radius: 40px;
+        font-size: 16px;
+        align-self: center;
+        border: none;
+        font-family: 'poppinsmedium';
+        background-color: rgb(218, 220, 221);
+        color: rgb(1, 155, 175);
+        margin-top: 15px;
+        box-shadow: 0px 0px 16px rgb(175, 198, 224);
+        cursor: pointer;
+}
+
 .modal.active {
     background: rgb(1, 155, 175);
     color: white;
     border-color: #fff;
 }
+
 
 
 .botao.active::before {
@@ -220,7 +260,8 @@ a:hover {
     height: 40px;
 }
 
-.container-principal button {
+
+.botaodownload button {
     background-color: rgb(231, 225, 225);
     padding: 15px 20px;
     border-radius: 40px;
