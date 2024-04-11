@@ -166,8 +166,13 @@ body.active {
 
 }
 
+.cabecalho.active {
+    color: blue;
+    background: blue;
+}
+
 .modal.active {
-    background: rgb(120, 166, 228);
+    background: rgb(112, 165, 214);
     color: white;
     border-color: #fff;
 }
