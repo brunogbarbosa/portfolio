@@ -125,6 +125,18 @@ body.active {
     height: 100vh;
 }
 
+section.active {
+    background-image: linear-gradient(rgb(255, 249, 249), var(--CorAzulClaro));
+}
+
+.header-project.active h1 {
+    color: var(--CorAzulClaro);
+}
+
+.title-container.active h3 {
+    color: var(--CorAzulClaro);
+}
+
 .txt-animado.active span {
     position: relative;
     font-family: 'poppinsregular';
@@ -324,6 +336,70 @@ header a:hover {
     margin: 50px;
     margin-right: 80px;
 }
+
+/* PROJETOS */
+
+
+.header-project {
+    margin: 30px 40px;
+}
+
+.projetos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container-project {
+    height: 400px;
+    width: 350px;
+    margin: 30px 40px;
+    background-color: rgba(255, 255, 255, 0.021);
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: 1px solid gray;
+}
+
+.container-project p {
+    color: gray;
+    margin-top: 0px;
+    padding-bottom: 5px;
+}
+
+.title-container h3 {
+    color: white;
+}
+
+.title-container > h3 {
+    display: inline-block;
+    border-bottom: 1px solid gray;
+    padding-bottom: 5px;
+    border-width: 50%;
+}
+
+
+.logos-project {
+    margin-bottom: 10px;
+}
+
+.logos-project img {
+    width: 30px;
+    height: 20px;
+}
+
+
+ .projeto-img .imagem-paglogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 300px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px gray;  
+} 
+
+
 
 @keyframes digitar {
     10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95% {

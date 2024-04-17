@@ -27,7 +27,9 @@ const body = document.body;
 const elemento = document.querySelector('.txt-animado'); 
 const icons = document.querySelector('.logos');
 const baixarbotao = document.querySelector('.botaodownload');
-const cabecalho = document.nav;
+const section = document.querySelector('.conteudo-projetos');
+const headerh1 = document.querySelector('.header-project');
+const titlecontainer = document.querySelector('.title-container')
 botao.onclick = function() {
     this.classList.toggle('active');
     modal.classList.toggle('active');
@@ -35,7 +37,8 @@ botao.onclick = function() {
     elemento.classList.toggle('active');
     icons.classList.toggle('active');
     baixarbotao.classList.toggle('active');
-    cabecalho.classList.toggle('active')
-
+    section.classList.toggle('active');
+    headerh1.classList.toggle('active');
+    titlecontainer.classList.toggle('active');
 }
 
