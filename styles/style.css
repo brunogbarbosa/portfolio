@@ -14,7 +14,7 @@ body {
     background-color: var(--corAzul);
     /* background-color: #162037; */
     color: rgb(231, 225, 225);
-    font-family: 'poppinslight', sans-serif;
+    font-family: poppinsregular;
 }
 
 header {
@@ -24,7 +24,9 @@ header {
     margin: 10px 50px;
 }
 
-
+header h1 {
+    font-family: 'Mont';
+}
 
 nav {
     display: flex;
@@ -68,7 +70,7 @@ li a {
     border: 1px solid white;
     color: #ffffff;
     border-radius: 10px;
-    font-family: 'poppinslight', sans-serif;
+    font-family: "Poppins-light", sans-serif;
     margin-bottom: 10px;
     cursor: pointer;
 }
@@ -80,6 +82,7 @@ li a {
     padding: 5px;
     font-size: 15px;
     cursor: pointer;
+    font-family: 'JetBrains';
 }
 
 .header-modal h3 {
@@ -88,7 +91,7 @@ li a {
     border-bottom: 2px solid rgb(255, 255, 255);
     padding-bottom: 10px;
     width: 30%;
-    font-family: 'poppinslight', sans-serif;
+    font-family: "Poppins-light", sans-serif;
 }
 
 .modal::backdrop {
@@ -111,6 +114,7 @@ li a {
     margin: 0;
     font-size: 15px;
     text-align: center;
+    font-family: 'Mont';
 }
 
 .container {
@@ -134,18 +138,9 @@ section.active {
     background-image: linear-gradient(#f4f7fc, var(--CorAzulClaro));
 }
 
-.header-project.active h1 {
-    color: var(--CorAzulClaro);
-}
-
-.title-container.active h3, .title-container2.active h3, .title-container3.active h3 {
-    color: var(--CorAzulClaro);
-    background-color: blue;
-}
-
 .txt-animado.active span {
     position: relative;
-    font-family: 'poppinsregular', sans-serif;
+    font-family: "Poppins-light", sans-serif;
 }
 
 
@@ -162,6 +157,7 @@ section.active {
     width: calc(100% + 10px);
     border-left: 2px solid rgb(255, 255, 255);
     right: -10px;
+    top: -5px;
     animation: cursor .8s infinite, digitar 35s steps(30) infinite;
     background: rgba(255, 255, 255, 0.541);
 
@@ -175,7 +171,7 @@ section.active {
     font-size: 14px;
     align-self: center;
     border: none;
-    font-family: 'poppinsmedium', sans-serif;
+    font-family: "Poppins", sans-serif;
     background-color: rgb(255, 255, 255);
     color: rgb(79, 118, 190);
     margin-top: 15px;
@@ -201,10 +197,6 @@ section.active {
     left: 23px;
 }
 
-.container-projetc.active{
-    border-color: var(--CorAzulClaro);
-    background-color: blue;
-}
 
 
 .botao {
@@ -292,7 +284,7 @@ header a:hover {
 }
 
 .container-principal p {
-    font-family: 'poppinslight';
+    font-family: "Poppins-light", sans-serif;
 }
 
 .logos img {
@@ -309,7 +301,7 @@ header a:hover {
     font-size: 14px;
     align-self: center;
     border: none;
-    font-family: 'poppinsmedium';
+    font-family: 'Mont';
     background-color: rgb(72, 117, 175);
     color: var(--corAzul);
     margin-top: 15px;
@@ -320,7 +312,7 @@ header a:hover {
 
 .txt-animado span {
     position: relative;
-    font-family: 'poppinsregular';
+    font-family: "Poppins-light", sans-serif;
 }
 
 
@@ -353,6 +345,7 @@ header a:hover {
 
 .header-project {
     text-align: center;
+    font-family: 'Mont';
 }
 
 .projetos {
@@ -375,10 +368,12 @@ header a:hover {
     color: gray;
     margin-top: 0px;
     padding-bottom: 5px;
+    font-family: "Poppins-light";
 }
 
-.title-container, .title-container2, .title-container3 h3 {
+.title-container h3 {
     color: white;
+    font-family: 'poppinsregular';
 }
 
 .title-container > h3 {
