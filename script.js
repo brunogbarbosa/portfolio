@@ -30,6 +30,10 @@ const baixarbotao = document.querySelector('.botaodownload');
 const section = document.querySelector('.conteudo-projetos');
 const headerh1 = document.querySelector('.header-project');
 const titlecontainer = document.querySelector('.title-container')
+const titlecontainer2 = document.querySelector('.title-container2')
+const titlecontainer3 = document.querySelector('.title-container3')
+const containerprojeto = document.querySelector('.container-project');
+
 botao.onclick = function() {
     this.classList.toggle('active');
     modal.classList.toggle('active');
@@ -40,5 +44,8 @@ botao.onclick = function() {
     section.classList.toggle('active');
     headerh1.classList.toggle('active');
     titlecontainer.classList.toggle('active');
+    titlecontainer2.classList.toggle('active');
+    titlecontainer3.classList.toggle('active');
+    containerprojeto.classList.toggle('active');
 }
 

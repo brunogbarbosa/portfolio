@@ -37,6 +37,11 @@ li {
     margin-left: 15px;
 }
 
+li a {
+    transition: 0.3s;
+}
+
+
 .icon-eng {
     margin-left: 25px;
     width: 30px;
@@ -126,15 +131,16 @@ body.active {
 }
 
 section.active {
-    background-image: linear-gradient(rgb(255, 249, 249), var(--CorAzulClaro));
+    background-image: linear-gradient(#f4f7fc, var(--CorAzulClaro));
 }
 
 .header-project.active h1 {
     color: var(--CorAzulClaro);
 }
 
-.title-container.active h3 {
+.title-container.active h3, .title-container2.active h3, .title-container3.active h3 {
     color: var(--CorAzulClaro);
+    background-color: blue;
 }
 
 .txt-animado.active span {
@@ -193,6 +199,11 @@ section.active {
 
 .botao.active::before {
     left: 23px;
+}
+
+.container-projetc.active{
+    border-color: var(--CorAzulClaro);
+    background-color: blue;
 }
 
 
@@ -341,7 +352,7 @@ header a:hover {
 
 
 .header-project {
-    margin: 30px 40px;
+    text-align: center;
 }
 
 .projetos {
@@ -366,7 +377,7 @@ header a:hover {
     padding-bottom: 5px;
 }
 
-.title-container h3 {
+.title-container, .title-container2, .title-container3 h3 {
     color: white;
 }
 
@@ -376,6 +387,12 @@ header a:hover {
     padding-bottom: 5px;
     border-width: 50%;
 }
+
+.link-design img:hover {
+    border-color: var(--CorAzulClaro);
+    box-shadow: 0px 0px 10px var(--CorAzulClaro);
+}
+
 
 
 .logos-project {
@@ -399,6 +416,12 @@ header a:hover {
     box-shadow: 0px 0px 10px gray;  
 } 
 
+
+/* EFEITO SCROLL REVEAL */
+
+.efeito-txt-principal, .efeito.txt-logos, .efeito-txt-image {
+    visibility: hidden;
+}
 
 
 @keyframes digitar {
