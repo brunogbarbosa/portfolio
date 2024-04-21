@@ -11,3 +11,10 @@ mostrar.reveal('.efeito-image-fixed', {
     distance: '90px',
     delay: 300
 })
+
+mostrar.reveal('.efeito-container',{
+    duration: 3000,
+    distance: '90px',
+    origin: 'top',
+    delay: 300
+})

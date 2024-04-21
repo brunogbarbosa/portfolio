@@ -29,8 +29,9 @@ const icons = document.querySelector('.logos');
 const baixarbotao = document.querySelector('.botaodownload');
 const section = document.querySelector('.conteudo-projetos');
 const headerh1 = document.querySelector('.header-project');
-const titlecontainer = document.querySelector('.title-container');
-const containerp = document.querySelector('.container-project');
+const containers = document.querySelectorAll('.container-project');
+const titlescontainer = document.querySelectorAll('.title-container')
+const projects = document.querySelector('.projetos');
 
 botao.onclick = function() {
     this.classList.toggle('active');
@@ -41,7 +42,12 @@ botao.onclick = function() {
     baixarbotao.classList.toggle('active');
     section.classList.toggle('active');
     headerh1.classList.toggle('active');
-    titlecontainer.classList.toggle('active');
-    containerp.classList.toggle('active');
+    containers.forEach(container => {
+        container.classList.toggle('active');
+    });
+    titlescontainer.forEach(titlesproject => {
+        titlesproject.classList.toggle('active')
+    });
+    projects.classList.toggle('active');
 }
 
