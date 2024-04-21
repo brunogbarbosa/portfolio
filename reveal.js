@@ -16,5 +16,5 @@ mostrar.reveal('.efeito-container',{
     duration: 3000,
     distance: '90px',
     origin: 'top',
-    delay: 300
+    delay: 50
 })
