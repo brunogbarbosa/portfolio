@@ -1,5 +1,30 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'Mont';
+    src: url(/assets/fonts/MontSerrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'JetBrains';
+    src: url(/assets/fonts/JetBrainsMono/JetBrainsMono-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins-light';
+    src: url(/assets/fonts/poppins-light-webfont.woff);
+}
+
+@font-face {
+    font-family: 'poppinsregular';
+    src: url(/assets/fonts/poppins-regular-webfont.woff2) format('woff2'),
+         url(/assets/fonts/poppins-regular-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 :root {
     --corAzul: #000e2e;
     --CorAzulClaro: rgb(68, 123, 187);
