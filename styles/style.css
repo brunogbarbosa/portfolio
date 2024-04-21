@@ -68,7 +68,7 @@ li a {
     border: 1px solid white;
     color: #ffffff;
     border-radius: 10px;
-    font-family: 'poppinslight';
+    font-family: 'poppinslight', sans-serif;
     margin-bottom: 10px;
     cursor: pointer;
 }
@@ -88,7 +88,7 @@ li a {
     border-bottom: 2px solid rgb(255, 255, 255);
     padding-bottom: 10px;
     width: 30%;
-    font-family: 'poppinslight';
+    font-family: 'poppinslight', sans-serif;
 }
 
 .modal::backdrop {
@@ -145,7 +145,7 @@ section.active {
 
 .txt-animado.active span {
     position: relative;
-    font-family: 'poppinsregular';
+    font-family: 'poppinsregular', sans-serif;
 }
 
 
@@ -175,7 +175,7 @@ section.active {
     font-size: 14px;
     align-self: center;
     border: none;
-    font-family: 'poppinsmedium';
+    font-family: 'poppinsmedium', sans-serif;
     background-color: rgb(255, 255, 255);
     color: rgb(79, 118, 190);
     margin-top: 15px;
