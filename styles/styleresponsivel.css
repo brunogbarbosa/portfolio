@@ -540,7 +540,7 @@ header {
     }
 
     .icon-eng {
-        width: 25px;
+        width: 30px;
         position: relative;
         top: -60px;
         right: -50px;
@@ -585,10 +585,80 @@ header {
         margin-left: 10px;
     }
 
+
     
     
     .logos-project img {
         width: 15px;
         height: 20px;
     }
+}
+
+
+@media screen and (max-width: 375px) {
+    header nav {
+        font-size: 11px;
+    }
+
+    header li {
+        margin-left: 5px;
+    }
+    .conteudo-principal h1 {
+        font-size: 25px;
+    }
+
+    .conteudo-principal h2 {
+        font-size: 20px;
+    }
+
+    .conteudo-principal span {
+        font-size: 15px;
+    }
+
+    .icon-eng {
+        width: 30px;
+        position: relative;
+        top: -52px;
+        right: -40px;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+
+    .projetos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    .container-project {
+        height: 450px;
+        width: 300px;
+        padding: 10px;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+
+    .projeto-img .imagem-paglogin {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 300px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px gray;  
+    } 
+
+    .imagem-paglogin {
+        max-width: 450px;
+    }
+
+    .logos-project {
+        margin-bottom: 5px;
+        margin-left: 10px;
+    }
+
 }
