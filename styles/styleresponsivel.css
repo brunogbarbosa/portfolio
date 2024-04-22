@@ -1,0 +1,594 @@
+@media screen and (max-width: 1100px){
+    
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .conteudo-principal {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+}
+
+li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between  ;
+}
+
+}
+
+@media screen and (max-width: 1000px) {
+
+
+    .projetos {
+        padding: 0;
+        margin: 0;
+    }
+
+    .container-project {
+        height: 350px;
+        width: 250px;
+        margin: 10px;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .logos-project {
+        margin-bottom: 5px;
+        margin-left: 15px;
+    }
+    
+    .logos-project img {
+        width: 15px;
+        height: 20px;
+    }
+    
+    
+     .projeto-img .imagem-paglogin {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 250px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px gray;  
+    } 
+    
+    .imagem-paglogin {
+        max-width: 225px;
+    }
+    
+}
+
+@media screen and (max-width: 900px){
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    header nav {
+        font-size: 12px;
+    }
+
+    .conteudo-principal h1 {
+        font-size: 30px;
+    }
+
+    .conteudo-principal span {
+        font-size: 20px;
+    }
+
+    .conteudo-principal p {
+        font-size: 14px;
+    }
+
+    .image img{
+        max-width: 300px;
+    }
+
+    .logos img {
+        width: 45px;
+        margin-left: 5px;
+        align-items: center;
+    }
+
+    .botaodownload button{
+        padding: 10px 12px;
+        font-size: 10px;
+        margin-top: 0px;
+    }
+}
+
+
+@media screen and (max-width: 790px) {
+
+    .header-project h1 {
+        font-size: 20px;
+    }
+    
+    .projetos {
+        padding: 0;
+        margin: 0;
+    }
+
+    .container-project {
+        height: 350px;
+        width: 200px;
+        margin: 5px;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .logos-project {
+        margin-bottom: 5px;
+        margin-left: 15px;
+    }
+    
+    .logos-project img {
+        width: 15px;
+        height: 20px;
+    }
+    
+    
+     .projeto-img .imagem-paglogin {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 200px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px gray;  
+    } 
+    
+    .imagem-paglogin {
+        max-width: 250px;
+    }
+
+    .logos img {
+        width: 30px;
+        margin-left: 5px;
+        align-items: center;
+    }
+
+    .botaodownload button{
+        padding: 10px 12px;
+        font-size: 10px;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .header-project h1 {
+        font-size: 20px;
+    }
+
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    header nav {
+        font-size: 12px;
+    }
+
+    .container-principal h2 {
+        font-size: 20px;
+    }
+
+    .conteudo-principal h1 {
+        font-size: 26px;
+    }
+
+    .conteudo-principal span {
+        font-size: 17px;
+    }
+
+    .conteudo-principal p {
+        font-size: 12px;
+    }
+
+    .logos img {
+        width: 25px;
+        margin-left: 5px;
+        align-items: center;
+    }
+
+    .botaodownload button{
+        padding: 10px 10px;
+        font-size: 12px;
+        margin-top: 0px;
+    }
+
+    .container-project {
+        height: 350px;
+        width: 170px;
+        margin: 5px;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .logos-project {
+        margin-bottom: 5px;
+        margin-left: 15px;
+    }
+    
+    .logos-project img {
+        width: 15px;
+        height: 20px;
+    }
+    
+    
+    .projeto-img .imagem-paglogin {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 170px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px gray;  
+    } 
+
+    .image img {
+        width: 225px;
+    }
+} 
+
+
+@media screen and (max-width: 600px){
+
+    .header-project {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .projetos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    .container-project {
+        height: 450px;
+        width: 400px;
+        padding: 10px;
+        font-size: 16px;
+        margin-top: 15px;
+    }
+
+    .projeto-img .imagem-paglogin {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 350px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px gray;  
+    } 
+
+    .imagem-paglogin {
+        max-width: 450px;
+    }
+
+    .logos-project {
+        margin-bottom: 5px;
+        margin-left: 30px;
+    }
+
+    
+    
+    .logos-project img {
+        width: 15px;
+        height: 20px;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    
+
+    .header-project h1 {
+        font-size: 20px;
+    }
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    header nav {
+        font-size: 15px;
+    }
+
+
+    .container-principal h2 {
+        font-size: 25px;
+    }
+
+    .conteudo-principal h1 {
+        font-size: 30px;
+    }
+
+    .conteudo-principal span {
+        font-size: 20px;
+    }
+
+    .conteudo-principal p {
+        font-size: 15px;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .botaodownload button{
+        padding: 12px 15px;
+        font-size: 12px;
+        margin-top: 0px;
+    }
+
+    .icon-eng {
+        width: 25px;
+        position: relative;
+        top: -60px;
+        right: -90px;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+
+    .conteudo-projetos {
+        margin-top: 35px;
+    }
+
+    header nav {
+        border-bottom: 1px solid white;
+    }
+    .logos img {
+        width: 35px;
+        }
+    
+    
+    .image {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 510px) {
+    .conteudo-principal h1 {
+        font-size: 26px;
+    }
+
+    .icon-eng {
+        width: 25px;
+        position: relative;
+        top: -60px;
+        right: -50px;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+
+    .conteudo-principal span {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 452px) {
+    .conteudo-principal h1 {
+        font-size: 24px;
+    }
+
+    .container-principal h2 {
+        font-size: 20px;
+    }
+    .icon-eng {
+        width: 25px;
+        position: relative;
+        top: -60px;
+        right: -50px;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+
+    .conteudo-principal span {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+
+    header nav {
+        font-size: 15px;
+    }
+
+    header li {
+        margin-left: 5px;
+    }
+    .icon-eng {
+        width: 25px;
+        position: relative;
+        top: -56px;
+        right: -50px;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+
+    .container-principal {
+        align-items: center;
+        max-width: 100%;
+        margin: 0px 50px;
+        margin-left: 70px;
+    }
+    
+
+    .projetos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    .container-project {
+        height: 450px;
+        width: 350px;
+        padding: 10px;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+
+    .projeto-img .imagem-paglogin {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 340px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px gray;  
+    } 
+
+    .imagem-paglogin {
+        max-width: 450px;
+    }
+
+    .logos-project {
+        margin-bottom: 5px;
+        margin-left: 10px;
+    }
+
+    
+    
+    .logos-project img {
+        width: 15px;
+        height: 20px;
+    }
+}
+
+
+@media screen and (max-width: 413px) {
+
+    header nav {
+        font-size: 15px;
+    }
+
+    header li {
+        margin-left: 5px;
+    }
+    .conteudo-principal h1 {
+        font-size: 30px;
+    }
+
+    .conteudo-principal h2 {
+        font-size: 20px;
+    }
+
+    .conteudo-principal span {
+        font-size: 12px;
+    }
+
+    .icon-eng {
+        width: 25px;
+        position: relative;
+        top: -60px;
+        right: -50px;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width: 380px) {
+    header nav {
+        font-size: 13px;
+    }
+
+    header li {
+        margin-left: 5px;
+    }
+    .conteudo-principal h1 {
+        font-size: 30px;
+    }
+
+    .conteudo-principal h2 {
+        font-size: 20px;
+    }
+
+    .conteudo-principal span {
+        font-size: 15px;
+    }
+
+    .icon-eng {
+        width: 25px;
+        position: relative;
+        top: -60px;
+        right: -50px;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+
+    .projetos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    .container-project {
+        height: 450px;
+        width: 300px;
+        padding: 10px;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+
+    .projeto-img .imagem-paglogin {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 300px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px gray;  
+    } 
+
+    .imagem-paglogin {
+        max-width: 450px;
+    }
+
+    .logos-project {
+        margin-bottom: 5px;
+        margin-left: 10px;
+    }
+
+    
+    
+    .logos-project img {
+        width: 15px;
+        height: 20px;
+    }
+}
