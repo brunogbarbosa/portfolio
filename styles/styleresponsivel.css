@@ -344,10 +344,7 @@ header {
     }
 
     .icon-eng img {
-        width: 25px;
-        position: relative;
-        top: -60px;
-        right: -90px;
+        width: 30px;
         display: flex;
         justify-content: right;
         align-items: center;
@@ -378,9 +375,6 @@ header {
 
     .icon-eng img {
         width: 25px;
-        position: relative;
-        top: 2px;
-        right: 20px;
         display: flex;
         justify-content: right;
         align-items: center;
@@ -401,9 +395,6 @@ header {
     }
     .icon-eng img {
         width: 25px;
-        position: relative;
-        top: 3px;
-        right: 20px;
         display: flex;
         justify-content: right;
         align-items: center;
@@ -424,10 +415,7 @@ header {
         margin-left: 5px;
     }
     .icon-eng img {
-        width: 25px;
-        position: relative;
-        top: 2px;
-        right: 20px;
+        width: 30px;
         display: flex;
         justify-content: right;
         align-items: center;
@@ -486,7 +474,7 @@ header {
 }
 
 
-@media screen and (max-width: 413px) {
+@media screen and (max-width: 415px) {
 
     header nav {
         font-size: 15px;
@@ -508,12 +496,11 @@ header {
     }
 
     .icon-eng img {
-        position: relative;
-        top: -5px;
-        right: 20px;
+        width: 30px;
         display: flex;
         justify-content: right;
         align-items: center;
+        margin-left: 5px;
     }
 
     .icon-eng img {
@@ -543,10 +530,7 @@ header {
     }
 
     .icon-eng img {
-        width: 30px;
-        position: relative;
-        top: 5px;
-        right: 10px;
+        width: 25px;
         display: flex;
         justify-content: right;
         align-items: center;
@@ -620,10 +604,7 @@ header {
     }
 
     .icon-eng img {
-        width: 30px;
-        position: relative;
-        top: 5px;
-        right: 10px;
+        width: 25px;
         display: flex;
         justify-content: right;
         align-items: center;
