@@ -343,7 +343,7 @@ header {
         margin-top: 0px;
     }
 
-    .icon-eng {
+    .icon-eng img {
         width: 25px;
         position: relative;
         top: -60px;
@@ -376,11 +376,11 @@ header {
         font-size: 26px;
     }
 
-    .icon-eng {
+    .icon-eng img {
         width: 25px;
         position: relative;
-        top: -60px;
-        right: -50px;
+        top: 2px;
+        right: 20px;
         display: flex;
         justify-content: right;
         align-items: center;
@@ -399,11 +399,11 @@ header {
     .container-principal h2 {
         font-size: 20px;
     }
-    .icon-eng {
+    .icon-eng img {
         width: 25px;
         position: relative;
-        top: -60px;
-        right: -50px;
+        top: 3px;
+        right: 20px;
         display: flex;
         justify-content: right;
         align-items: center;
@@ -423,11 +423,11 @@ header {
     header li {
         margin-left: 5px;
     }
-    .icon-eng {
+    .icon-eng img {
         width: 25px;
         position: relative;
-        top: -56px;
-        right: -50px;
+        top: 2px;
+        right: 20px;
         display: flex;
         justify-content: right;
         align-items: center;
@@ -507,13 +507,17 @@ header {
         font-size: 12px;
     }
 
-    .icon-eng {
+    .icon-eng img {
         position: relative;
-        top: -60px;
-        right: -50px;
+        top: -5px;
+        right: 20px;
         display: flex;
         justify-content: right;
         align-items: center;
+    }
+
+    .icon-eng img {
+        width: 25px;
     }
 }
 
@@ -538,15 +542,16 @@ header {
         font-size: 15px;
     }
 
-    .icon-eng {
+    .icon-eng img {
         width: 30px;
         position: relative;
-        top: -60px;
-        right: -50px;
+        top: 5px;
+        right: 10px;
         display: flex;
         justify-content: right;
         align-items: center;
     }
+
 
     .projetos {
         display: flex;
@@ -614,11 +619,11 @@ header {
         font-size: 15px;
     }
 
-    .icon-eng {
+    .icon-eng img {
         width: 30px;
         position: relative;
-        top: -52px;
-        right: -40px;
+        top: 5px;
+        right: 10px;
         display: flex;
         justify-content: right;
         align-items: center;
