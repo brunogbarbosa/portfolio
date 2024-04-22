@@ -68,7 +68,6 @@ li a {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 8px 12px;
     background-color: rgba(68, 124, 187, 0);
     border: 1px solid white;
     color: #ffffff;
@@ -82,10 +81,11 @@ li a {
     border: none;
     background-color: transparent;
     color: white;
-    padding: 5px;
+    padding: 8px 12px;
     font-size: 15px;
     cursor: pointer;
     font-family: 'JetBrains';
+    width: 100%;
 }
 
 .header-modal h3 {
