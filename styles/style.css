@@ -22,7 +22,6 @@ header {
     flex-direction: row;
     justify-content: space-between;
     margin: auto;
-    padding: 20px 50px;
     max-width: 100%;
     max-height: 100%;
 }
