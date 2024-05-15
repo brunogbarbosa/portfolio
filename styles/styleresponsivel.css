@@ -1006,7 +1006,7 @@ header {
         margin-left: 5px;
     }
     .container-principal h1 {
-        font-size: 23px;
+        font-size: 15px;
     }
 
     .container-principal {
@@ -1016,11 +1016,11 @@ header {
     .container-principal {
         margin: 0px 30px;
     }
-    .conteudo-principal h2 {
+    .container-principal h2 {
         font-size: 20px;
     }
 
-    .conteudo-principal span {
+    .container-principal span {
         font-size: 15px;
     }
 
