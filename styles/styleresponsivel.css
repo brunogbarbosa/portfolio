@@ -330,6 +330,10 @@ header {
         font-size: 15px;
     }
 
+    .container-principal {
+        max-width: 80%;
+    }
+
     header {
         display: flex;
         flex-direction: column;
@@ -432,6 +436,10 @@ header {
 
     .conteudo-principal span {
         font-size: 18px;
+    }
+
+    .container-principal {
+        max-width: 80%;
     }
 
     .modal.active[open] {
