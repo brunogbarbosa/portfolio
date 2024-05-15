@@ -683,15 +683,19 @@ header {
     header li {
         margin-left: 5px;
     }
-    .container-principal h1 {
-        font-size: 15px;
+    .conteudo-principal h1 {
+        font-size: 30px;
     }
 
-    .container-principal h2 {
+    .conteudo-principal {
+        width: 100%;
+    }
+
+    .conteudo-principal h2 {
         font-size: 20px;
     }
 
-    .container-principal span {
+    .conteudo-principal span {
         font-size: 18px;
     }
 
@@ -768,8 +772,8 @@ header {
     header li {
         margin-left: 5px;
     }
-    .container-principal h1 {
-        font-size: 15px;
+    .conteudo-principal h1 {
+        font-size: 30px;
     }
 
     .conteudo-principal h2 {
@@ -778,6 +782,10 @@ header {
 
     .conteudo-principal span {
         font-size: 15px;
+    }
+
+    .conteudo-principal {
+        width: 100%;
     }
 
     .icon-eng img {
@@ -890,13 +898,19 @@ header {
     header li {
         margin-left: 5px;
     }
-    .container-principal h1 {
-        font-size: 15px;
+    .conteudo-principal h1 {
+        font-size: 25px;
     }
+
 
     .conteudo-principal h2 {
         font-size: 20px;
     }
+
+    .conteudo-principal {
+        width: 100%;
+    }
+
 
     .conteudo-principal span {
         font-size: 15px;
@@ -1006,21 +1020,21 @@ header {
         margin-left: 5px;
     }
     .container-principal h1 {
-        font-size: 15px;
+        font-size: 23px;
     }
 
-    .container-principal {
+    .conteudo-principal {
         width: 100%;
     }
 
     .container-principal {
         margin: 0px 30px;
     }
-    .container-principal h2 {
+    .conteudo-principal h2 {
         font-size: 20px;
     }
 
-    .container-principal span {
+    .conteudo-principal span {
         font-size: 15px;
     }
 
