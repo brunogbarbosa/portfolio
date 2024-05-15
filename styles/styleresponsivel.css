@@ -1118,3 +1118,126 @@ header {
         height: 70vh;
     }
 }
+
+@media screen and (max-width: 295px) {
+    header nav {
+        font-size: 11px;
+    }
+
+    header li {
+        margin-left: 5px;
+    }
+
+    .conteudo-principal h1 {
+        font-size: 20px;
+    }
+
+    .container-principal {
+        width: 100%;
+    }
+
+    .container-principal {
+        margin: 0px 50px;
+    }
+    .conteudo-principal h2 {
+        font-size: 20px;
+    }
+
+    .conteudo-principal span {
+        font-size: 15px;
+    }
+
+    .icon-eng img {
+        width: 25px;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+
+    .projetos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    .container-project {
+        height: 450px;
+        width: 300px;
+        padding: 10px;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+
+    .projeto-img .imagem-paglogin {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        width: 300px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px gray;  
+    } 
+
+    .imagem-paglogin {
+        max-width: 450px;
+    }
+
+    .logos-project {
+        margin-bottom: 5px;
+        margin-left: 10px;
+    }
+
+
+    .modal.active[open] {
+        background: rgb(112, 165, 214);
+        color: white;
+        border-color: #fff;
+    }
+
+    .header-modal {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .header-modal h3 {
+        font-size: 30px;
+        color: rgb(255, 255, 255);
+        border-bottom: 2px solid rgb(255, 255, 255);
+        padding-bottom: 10px;
+        width: auto;
+        font-family: "Poppins-light", sans-serif;
+    }
+
+    .botaoidioma {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 5px;
+        padding: 5px;
+        width: 300px;
+        height: 20px;
+        border: 2px solid #fff;
+        border-radius: 10px;
+        position: relative;
+        cursor: pointer;
+        margin: 0px 15px;
+    }
+
+    .modal[open] {
+        background-image: linear-gradient(to bottom, #05112c, #162037, #050a18);
+        color: rgb(255, 255, 255);
+        border: 2px solid rgb(92, 92, 92);
+        border-radius: 10px;
+        padding: 10px 25px;
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        height: 70vh;
+    }
+}
