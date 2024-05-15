@@ -683,15 +683,15 @@ header {
     header li {
         margin-left: 5px;
     }
-    .conteudo-principal h1 {
-        font-size: 30px;
+    .container-principal h1 {
+        font-size: 15px;
     }
 
-    .conteudo-principal h2 {
+    .container-principal h2 {
         font-size: 20px;
     }
 
-    .conteudo-principal span {
+    .container-principal span {
         font-size: 18px;
     }
 
@@ -768,8 +768,8 @@ header {
     header li {
         margin-left: 5px;
     }
-    .conteudo-principal h1 {
-        font-size: 30px;
+    .container-principal h1 {
+        font-size: 15px;
     }
 
     .conteudo-principal h2 {
