@@ -1014,7 +1014,7 @@ header {
     }
 
     .container-principal {
-        margin: 0px 50px;
+        margin: 0px 30px;
     }
     .conteudo-principal h2 {
         font-size: 20px;
@@ -1119,8 +1119,7 @@ header {
     }
 }
 
-
-@media screen and (max-width: 295px) {
+@media screen and (max-width: 297px) {
     
     .container-principal h1 {
         font-size: 20px;
@@ -1128,5 +1127,21 @@ header {
 
     .container-principal span {
         font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    
+    .container-principal h1 {
+        font-size: 15px;
+        
+    }
+
+    .container-principal span {
+        font-size: 12px;
+    }
+
+    .conteudo-principal {
+        margin: 0px;
     }
 }
