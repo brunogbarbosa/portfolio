@@ -344,6 +344,10 @@ header a:hover {
     width: 350px;    
 }
 
+.image.efeito-image-fixed {
+    padding: 15px;
+}
+
 /* PROJETOS */
 
 
