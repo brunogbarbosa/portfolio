@@ -14,7 +14,7 @@ mostrar.reveal('.efeito-image-fixed', {
 
 mostrar.reveal('.efeito-container',{
     duration: 3000,
-    distance: '90px',
+    distance: '90px',   
     origin: 'top',
     delay: 50
 })

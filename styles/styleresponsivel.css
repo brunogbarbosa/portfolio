@@ -301,6 +301,7 @@ header {
 @media screen and (max-width: 550px) {
     
 
+
     .header-project h1 {
         font-size: 20px;
     }
@@ -313,6 +314,12 @@ header {
         font-size: 15px;
     }
 
+    .conteudo-principal {
+        display: flex;
+        flex-direction: column;
+        margin-top: 35px;
+        
+    }
 
     .container-principal h2 {
         font-size: 25px;
@@ -354,9 +361,6 @@ header {
         align-items: center;
     }
 
-    .conteudo-projetos {
-        margin-top: 35px;
-    }
 
     header nav {
         border-bottom: 1px solid white;
@@ -367,7 +371,8 @@ header {
     
     
     .image {
-        display: none;
+        content: url(/assets/images/codando-blue.gif);
+        width: 250px;
     }
 
     .modal.active[open] {
@@ -687,6 +692,8 @@ header {
 
 
 @media screen and (max-width: 415px) {
+
+
 
     header nav {
         font-size: 15px;
