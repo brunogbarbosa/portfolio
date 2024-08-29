@@ -343,9 +343,10 @@ header {
 
     header {
         display: flex;
-        flex-direction: column;
+        text-align: center;
         justify-content: center;
         align-items: center;
+        border-bottom: 1px solid white;
     }
 
     .botaodownload button{
@@ -362,16 +363,13 @@ header {
     }
 
 
-    header nav {
-        border-bottom: 1px solid white;
-    }
     .logos img {
         width: 35px;
         }
     
     
     .image {
-        content: url(/assets/images/codando-blue.gif);
+        content: url(/assets/images/imagem-programando.svg);
         width: 250px;
     }
 
