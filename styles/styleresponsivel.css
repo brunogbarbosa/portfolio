@@ -353,7 +353,7 @@ header {
         align-items: center;
     }
 
-    .header-principal {
+    .h1-header-principal {
         border-bottom: 1px solid var(--CorAzulClaro);
     }
 
