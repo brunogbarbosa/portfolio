@@ -137,11 +137,11 @@ body.active {
 }
 
 .header-principal.active {
-    border-color: var(--corAzul);
+    border-color: rgb(184, 184, 184);
 }
 
 h1.active {
-    color: var(--corAzul);
+    color: rgb(184, 184, 184);
 }
 
 .header-project.active h1 {
