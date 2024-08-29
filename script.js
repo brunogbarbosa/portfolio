@@ -32,7 +32,9 @@ const headerh1 = document.querySelector('.header-project');
 const containers = document.querySelectorAll('.container-project');
 const titlescontainer = document.querySelectorAll('.title-container')
 const projects = document.querySelector('.projetos');
-
+const stripe_color = document.querySelector('.header-principal');
+const ltgt_color = document.querySelector('.h1-header-principal');
+const barra_h1 = document.querySelector('.barrah1');
 botao.onclick = function() {
     this.classList.toggle('active');
     modal.classList.toggle('active');
@@ -49,5 +51,8 @@ botao.onclick = function() {
         titlesproject.classList.toggle('active')
     });
     projects.classList.toggle('active');
+    stripe_color.classList.toggle('active');
+    ltgt_color.classList.toggle('active');
+    barra_h1.classList.toggle('active')
 }
 

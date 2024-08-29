@@ -136,6 +136,13 @@ body.active {
     height: 100vh;
 }
 
+.header-principal.active {
+    border-color: var(--corAzul);
+}
+
+h1.active {
+    color: var(--corAzul);
+}
 
 .header-project.active h1 {
     color: var(--CorAzulClaro);
