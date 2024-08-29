@@ -353,6 +353,10 @@ header {
         align-items: center;
     }
 
+    .header-principal {
+        border-bottom: 1px solid var(--CorAzulClaro);
+    }
+
     .botaodownload button{
         padding: 12px 15px;
         font-size: 12px;
