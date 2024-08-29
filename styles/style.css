@@ -137,7 +137,8 @@ body.active {
 }
 
 .header-principal.active {
-    border-color: rgb(184, 184, 184);
+    
+    border-bottom: 1px solid rgb(184, 184, 184);
 }
 
 h1.active {
