@@ -308,6 +308,11 @@ header {
 
     header h1 {
         font-size: 25px;
+        color: var(--CorAzulClaro);
+    }
+
+    header .barrah1 {
+        color: white;
     }
 
     header nav {
@@ -346,7 +351,7 @@ header {
         text-align: center;
         justify-content: center;
         align-items: center;
-        border-bottom: 1px solid white;
+        border-bottom: 1px solid var(--CorAzulClaro);
     }
 
     .botaodownload button{
