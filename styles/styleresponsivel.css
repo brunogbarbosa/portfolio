@@ -1037,7 +1037,7 @@ header {
     }
 }
 
-@media screen and (min-width: 345px) {
+@media screen and (max-width: 347px) {
 
     header nav {
         font-size: 15px;
@@ -1053,20 +1053,6 @@ header {
 
 }
 
-
-@media screen and (max-width: 344px) {
-
-    header nav {
-        font-size: 15px;
-    }
-
-    .h1-header-principal {
-        font-size: 20px;
-    }
-
-    
-
-}
 
 @media screen and (max-width: 340px) {
     header nav {
@@ -1193,11 +1179,27 @@ header {
     }
 }
 
+@media screen and (max-width: 327px) {
 
-
-@media screen and (min-width: 305px) {
     header nav {
         font-size: 13px;
+    }
+
+    .h1-header-principal {
+        font-size: 20px;
+    }
+
+    .header-principal ul {
+        padding-left: 30px;
+    }
+
+    
+
+}
+
+@media screen and (max-width: 307px) {
+    header nav {
+        font-size: 12px;
     }
 
     .header-principal ul {
