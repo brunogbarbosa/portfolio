@@ -28,6 +28,12 @@ header {
 
 header h1 {
     font-family: 'Mont';
+    border-bottom: 1px solid var(--CorAzulClaro);
+
+}
+
+.barrah1 {
+    color: white;
 }
 
 nav {
@@ -131,18 +137,18 @@ li a {
 /*MODO DARK OR LIGHT*/
 
 body.active {
-    background-image: linear-gradient(var(--CorAzulClaro), white, whitesmoke);
+    background-image: linear-gradient(var(--CorAzulClaro) ,whitesmoke, white);
     color: white;
     height: 100vh;
 }
 
 .h1-header-principal.active {
     
-    border-bottom: 1px solid rgb(184, 184, 184);
+    border-bottom: 1px solid rgb(88, 174, 255);
 }
 
 h1.active {
-    color: rgb(184, 184, 184);
+    color: rgb(88, 174, 255);
 }
 
 .header-project.active h1 {

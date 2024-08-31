@@ -594,11 +594,10 @@ header {
         align-items: center;
         max-width: 100%;
         margin: 0px 50px;
-        margin-left: 70px;
     }
 
     .container-principal {
-        max-width: 80%;
+        max-width: 100%;
     }
     
 
@@ -709,7 +708,7 @@ header {
         margin-left: 5px;
     }
     .conteudo-principal h1 {
-        font-size: 30px;
+        font-size: 27px;
     }
 
 
@@ -723,7 +722,7 @@ header {
 
 
     .container-principal {
-        max-width: 80%;
+        max-width: 90%;
     }
 
     .icon-eng img {
@@ -793,7 +792,7 @@ header {
 
 @media screen and (max-width: 380px) {
     header nav {
-        font-size: 13px;
+        font-size: 15px;
     }
 
     header li {
@@ -919,7 +918,7 @@ header {
 
 @media screen and (max-width: 375px) {
     header nav {
-        font-size: 11px;
+        font-size: 15px;
     }
 
     header li {
@@ -1037,20 +1036,53 @@ header {
     }
 }
 
-@media screen and (max-width: 332px) {
+@media screen and (min-width: 345px) {
+
     header nav {
-        font-size: 11px;
+        font-size: 15px;
     }
 
-    header li {
-        margin-left: 5px;
+    h1.h1-header-principal {
+        font-size: 18px;
     }
+
+    .header-principal ul {
+        text-align: center;
+    }
+
+}
+
+
+@media screen and (max-width: 344px) {
+
+    header nav {
+        font-size: 15px;
+    }
+
+    .h1-header-principal {
+        font-size: 20px;
+    }
+
+    
+
+}
+
+@media screen and (max-width: 340px) {
+    header nav {
+        font-size: 14px;
+           
+    }
+
+    .h1-header-principal {
+        font-size: 20px;
+    }
+
     .container-principal h1 {
         font-size: 23px;
     }
 
     .container-principal {
-        max-width: 80%;
+        max-width: 90%;
     }
     
 
@@ -1159,6 +1191,28 @@ header {
         height: 70vh;
     }
 }
+
+@media screen and (max-width: 320px) {
+    header nav {
+        font-size: 13px;
+    }
+
+
+    .container-project {
+        height: 400px;
+        width: 280px;
+        padding: 10px;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+
+
+    .imagem-paglogin {
+        max-width: 280px;
+    }
+
+}
+
 
 @media screen and (max-width: 297px) {
     
