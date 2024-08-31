@@ -1194,10 +1194,14 @@ header {
 }
 
 
-/*
-@media screen and (max-width: 320px) {
+
+@media screen and (min-width: 305px) {
     header nav {
         font-size: 13px;
+    }
+
+    .header-principal ul {
+        padding-left: 30px;
     }
 
 
@@ -1217,7 +1221,7 @@ header {
 }
 
 
-@media screen and (max-width: 297px) {
+@media screen and (max-width: 306px) {
     
     .container-principal h1 {
         font-size: 20px;
