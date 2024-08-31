@@ -1192,6 +1192,8 @@ header {
     }
 }
 
+
+/*
 @media screen and (max-width: 320px) {
     header nav {
         font-size: 13px;
