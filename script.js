@@ -34,6 +34,7 @@ const titlescontainer = document.querySelectorAll('.title-container')
 const projects = document.querySelector('.projetos');
 const stripe_color = document.querySelector('.header-principal');
 const ltgt_color = document.querySelector('.h1-header-principal');
+const line_seven = document.querySelector('.line-seven');
 const barra_h1 = document.querySelector('.barrah1');
 botao.onclick = function() {
     this.classList.toggle('active');
